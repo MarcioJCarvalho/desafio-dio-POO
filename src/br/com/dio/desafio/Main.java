@@ -2,6 +2,7 @@ package br.com.dio.desafio;
 
 import java.time.LocalDate;
 
+import br.com.dio.desafio.dominio.Conteudo;
 import br.com.dio.desafio.dominio.Curso;
 import br.com.dio.desafio.dominio.Mentoria;
 
@@ -16,6 +17,9 @@ public class Main {
     curso2.setTitulo("Curso Js");
     curso2.setDescricao("descrição curso js");
     curso2.setCargaHoraria(4);
+
+    //Polimorfismo downcast
+    //Conteudo conteudo = new Curso();
 
     Mentoria mentoria = new Mentoria();
     mentoria.setTitulo("mentoria java");
